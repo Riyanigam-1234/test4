@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test4</title>
+</head>
+<style>
+*{
+    margin :0;;
+    padding :0;
+    list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin :0;
+    background-color: black;
+}
+h1{
+    width: 100%;
+       height: 60px;
+       display :flex;
+       justify-content: space-around;
+       align-items: center;
+       color: cornsilk;
+}
+h1,nav{
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+}
+nav{
+    width :100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding :10px 0;
+    margin-right: 50px;
+    text-decoration: none;
+}
+nav a{
+    padding: 5px 18px;
+    color :cornsilk;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 19px;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+}
+nav a:hover {
+    color :crimson;
+    padding :5px 18px;
+    margin :3px 15px;
+    display: block;
+    transition: 0.4s;
+}
+article{
+     padding: 1rem;
+     background-color :gray;
+     order :-1;
+     position :fixed;
+     right :30%;
+     border-radius: 1px;
+     box-sizing: border-box;
+}
+aside{
+    background-color: whitesmoke;
+    position :absolute;
+    left :70%;
+    padding :1.7rem;
+    border-top: 2px solid;
+    box-sizing: border-box;
+}
+footer{
+    width:100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    position: absolute;
+    top :40%;
+    background-color: grey;
+    color :black;
+}
+</style>
+<body>
+    <header>
+        <h1>Site Wide Header</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Jobs</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+             <h2>This is the heading of the section</h2>
+             <br>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quaerat labore fugit veniam earum non natus temporibus ducimus repudiandae, perferendis tempora esse veritatis vel ullam accusantium perspiciatis exercitationem repellat provident possimus. Repudiandae, maiores ipsam. Quod, eveniet possimus. Fugiat, earum minus! Id eveniet eius molestiae itaque ab dolores, pariatur enim nihil.
+             </p>
+        </article>
+        <aside><h3>Aside Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quod quaerat voluptatibus, ullam cum aperiam commodi ab doloremque dicta deserunt!
+            </p>
+         </aside>
+    </main>
+    <footer>
+        <p>Copyright &#169; 2017 <a href="/">My Site</a></p>
+    </footer>
+</body>
+</html>
